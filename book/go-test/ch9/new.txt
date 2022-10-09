@@ -1,0 +1,13 @@
+GOMAXPROCS: 12
+goos: darwin
+goarch: amd64
+pkg: self/golang-study/book/go-test/ch9
+cpu: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
+BenchmarkExample
+BenchmarkExample-12    	10257498	       114.7 ns/op
+BenchmarkExample-12    	10289094	       115.6 ns/op
+BenchmarkExample-12    	 9478780	       114.5 ns/op
+BenchmarkExample-12    	 9366463	       118.3 ns/op
+BenchmarkExample-12    	 8967655	       120.6 ns/op
+PASS
+ok  	self/golang-study/book/go-test/ch9	6.978s
